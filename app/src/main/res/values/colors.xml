@@ -2,4 +2,17 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Colores principales -->
+    <color name="primary_blue">#62CDFA</color>
+    <color name="primary_blue_dark">#0F80FD</color>
+
+    <!-- Grises -->
+    <color name="grey_800">#303030</color>
+    <color name="grey_500">#575757</color>
+    <color name="grey_300">#8E8E8E</color>
+    <color name="grey_200">#B2B2B2</color>
+    <color name="grey_100">#F4F4F4</color>
+
+    <!-- Status bar -->
+    <color name="status_bar">#384144</color>
 </resources>

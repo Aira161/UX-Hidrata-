@@ -40,5 +40,22 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        Button boton_signup = findViewById(R.id.button3);
+
+        boton_signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //cambiar color botón
+                boton_signup.setBackgroundColor(Color.parseColor("#457E96"));
+                boton_signup.setTextColor(Color.parseColor("#FFFFFF"));
+
+                //Ir a la encuesta
+
+                Intent intent = new Intent(MainActivity.this, SignUpActivity.class);
+                startActivity(intent);
+
+            }
+        });
     }
 }
