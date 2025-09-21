@@ -236,7 +236,8 @@
                 android:text="¿Cuánto mides?"
                 android:textColor="#2196F3"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
             <TextView
                 android:layout_width="wrap_content"
