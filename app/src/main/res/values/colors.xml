@@ -12,6 +12,11 @@
     <color name="grey_300">#8E8E8E</color>
     <color name="grey_200">#B2B2B2</color>
     <color name="grey_100">#F4F4F4</color>
+    <color name="GrisCrear">#1A767680</color>
+
+
+    <!-- Inputs -->
+    <color name="input">#EAF8FE</color>
 
     <!-- Status bar -->
     <color name="status_bar">#384144</color>
