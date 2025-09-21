@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado seleccionado -->
+    <item android:state_checked="true">
+        <layer-list>
+            <!-- Círculo de fondo -->
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#E3F2FD" />
+                    <stroke android:width="3dp" android:color="#2196F3" />
+                </shape>
+            </item>
+            <!-- Ícono de check -->
+            <item android:drawable="@drawable/ic_check"
+                android:gravity="bottom|end"
+                android:width="24dp"
+                android:height="24dp" />
+        </layer-list>
+    </item>
+    <!-- Estado no seleccionado -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF" />
+            <stroke android:width="2dp" android:color="#E0E0E0" />
+        </shape>
+    </item>
+</selector>
